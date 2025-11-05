@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1d1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    border: 2px solid beige;
+    padding: 50px;
+    background-color: beige;
+}
+
+#btn{
+    padding: 8px;
+    border-radius: 5px;
+    font-size: medium;
+    background-color: burlywood;
+}
+
+#btn:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    background-color: rgb(135, 125, 109);
+}
+
+input{
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 80px;
+    font-size: medium;
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+p{
+    font-size: x-large;
+    visibility: hidden;
+    font-weight: 600;
+}
