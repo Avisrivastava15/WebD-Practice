@@ -8,10 +8,6 @@ This repository represents my hands-on journey toward mastering front-end develo
 The goal of this repository is to learn by building — from simple layouts to interactive browser-based applications.
 Each project focuses on improving one or more areas of web development, including UI design, responsiveness, and dynamic behavior with JavaScript.
 
-**🧩 Projects Included**
-
-Some of the projects in this repository include:
-
 **🎨 CSS & UI Design**
 
 Glassmorphism Card
