@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+        <header><img src="heading.png" alt="heading" height="300" width="300" id="head-img"></header>
+        
+        <div id="data">
+            <input type="text" id="pokemonName" placeholder="Enter Pokemon Name">
+            <button onclick="fetchData()">SHOW</button>
+        </div>
+    
+    
+    <div class="cards-container" id="cards">
+
+    <!-- Card 1: Pokémon Basic Info -->
+    <div class="card card-basic">
+        <img id="pokemonImg" src="" alt="pokemon">
+        <h2 id="name">Name</h2>
+        <p id="type">Type</p>
+    </div>
+
+    <!-- Card 2: Physical Stats -->
+    <div class="card card-physical">
+        <h3>Physical Data</h3>
+        <p id="height">Height</p>
+        <p id="weight">Weight</p>
+        <p id="baseExp">Base Experience</p>
+        <p id="order">Order</p>
+    </div>
+
+    <!-- Card 3: Battle Stats -->
+    <div class="card card-battle">
+        <h3>Battle Stats</h3>
+        <p id="hp">HP</p>
+        <p id="attack">Attack</p>
+        <p id="defense">Defense</p>
+        <p id="speed">Speed</p>
+    </div>
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
